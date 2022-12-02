@@ -55,16 +55,16 @@ TrazarNumeros();
  
 function Valor(){
             var ecuacion = new Array(12);
-             ecuacion[0] = parseDouble( document.getElementById("a").value);
-             ecuacion[1] =  parseDouble( document.getElementById("b").value);
-             ecuacion[2]=   parseDouble(document.getElementById("c").value);
-             ecuacion[3] =  parseDouble(document.getElementById("d").value);
-             ecuacion[4] =  parseDouble(document.getElementById("e").value);
-             ecuacion[5] =  parseDouble(document.getElementById("f").value);
-             ecuacion[6] =  parseDouble(document.getElementById("x1").value);
-             ecuacion[7]=  parseDouble(document.getElementById("x2").value);
-             ecuacion[8] =  parseDouble(document.getElementById("x3").value);
-             ecuacion[9] =  parseDouble(document.getElementById("x4").value);
+             ecuacion[0] = parseInt( document.getElementById("a").value);
+             ecuacion[1] =  parseInt( document.getElementById("b").value);
+             ecuacion[2]=   parseInt(document.getElementById("c").value);
+             ecuacion[3] =  parseInt(document.getElementById("d").value);
+             ecuacion[4] =  parseInt(document.getElementById("e").value);
+             ecuacion[5] =  parseInt(document.getElementById("f").value);
+             ecuacion[6] =  parseInt(document.getElementById("x1").value);
+             ecuacion[7]=  parseInt(document.getElementById("x2").value);
+             ecuacion[8] =  parseInt(document.getElementById("x3").value);
+             ecuacion[9] =  parseInt(document.getElementById("x4").value);
              ecuacion[10] =  document.getElementById("demo1").innerHTML =ecuacion[0] +"x" +"  + " + ecuacion[1] +"y"+"=" + ecuacion[2];
              ecuacion[11] = document.getElementById("demo2").innerHTML =  ecuacion[3] +"x" +"  + " + ecuacion[4] +"y"+"=" + ecuacion[5];
             return ecuacion;
